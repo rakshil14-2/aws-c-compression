@@ -181,3 +181,19 @@ you could do the following:
 ```c
 AWS_ASSERT(decoder->working_bits == UINT64_MAX << (64 - decoder->num_bits));
 ```
+
+<!-- PLATFORM_SUPPORT_START -->
+# Platform Support
+
+## Tier 1 — Fully Supported & Tested in CI
+
+| Platform | Architecture |
+|----------|--------------|
+| manylinux2014 | x64, x86 |
+
+## Tier 2 — Supported (Not Tested in CI)
+
+| Platform | Architecture |
+|----------|--------------|
+
+<!-- PLATFORM_SUPPORT_END -->
