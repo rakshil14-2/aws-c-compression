@@ -189,6 +189,7 @@ AWS_ASSERT(decoder->working_bits == UINT64_MAX << (64 - decoder->num_bits));
 
 | Platform | Architecture |
 |----------|--------------|
+| Fedora-34 | x64 |
 | manylinux2014 | x64, x86 |
 
 ## Tier 2 — Supported (Not Tested in CI)
